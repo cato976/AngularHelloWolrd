@@ -1,0 +1,13 @@
+{
+  "extends": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "semi": false
+      }
+    ]
+  },
+  "plugins": ["prettier"]
+}
